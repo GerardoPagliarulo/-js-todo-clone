@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(72, 7, 22);
+    color: white;
+}
+
+
+/* UTILITIES */
+.template {
+    display: none;
+}
+
+
+/* LAYOUT */
+.container {
+    width: 550px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/* HEADER  */
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* MAIN */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, .65);
+    transition: background .4s;
+}
+
+input:hover,
+input:focus {
+        background: #fff;
+}
+
+.todo-list  li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, .5);
+}
+
+.todo-list  li:last-child {
+    border: none;
+}
+
+
+.element i {
+    cursor: pointer;
+    opacity: .65;
+    transition: opacity .4s;
+}
+
+.element i:hover {
+    opacity: 1;
+}
