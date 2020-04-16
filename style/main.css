@@ -59,8 +59,8 @@ input:focus {
     border: none;
 }
 
-.delete-line {
-    text-decoration: line-through;
+.todo-list li.delete-line { 
+    text-decoration: line-through; /* Delete Line JQ */ 
 }
 
 .element i {
@@ -72,4 +72,3 @@ input:focus {
 .element i:hover {
     opacity: 1;
 }
-
