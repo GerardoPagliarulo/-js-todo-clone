@@ -59,6 +59,9 @@ input:focus {
     border: none;
 }
 
+.delete-line {
+    text-decoration: line-through;
+}
 
 .element i {
     cursor: pointer;
@@ -69,3 +72,4 @@ input:focus {
 .element i:hover {
     opacity: 1;
 }
+

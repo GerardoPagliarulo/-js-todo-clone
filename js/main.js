@@ -56,5 +56,9 @@ $(document).ready(function () {
         $('body').on('click', '.todo-list li i', function () {
             $(this).parent().remove();
         });    
-    
+
+        // Delete line 
+        $('body').on('click', '.todo-list li', function () {
+            $(this).toggleClass('delete-line');
+        });    
 }); // End Ready
